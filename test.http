@@ -1,0 +1,7 @@
+@base = http://localhost:3001
+
+### Url 1
+GET {{base}}
+
+### Url 2
+GET {{base}}/status

@@ -1,0 +1,30 @@
+{
+  "name": "knownly-c1-stage1",
+  "version": "0.0.1",
+  "description": "Stage 1 Task: Deploy a working server",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "dev": "node --watch src/server.js",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekojoecovenant/knownly-c1-stage1.git"
+  },
+  "keywords": [
+    "knownlyc1",
+    "ekojoecovenant"
+  ],
+  "author": "ekojoecovenant",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ekojoecovenant/knownly-c1-stage1/issues"
+  },
+  "homepage": "https://github.com/ekojoecovenant/knownly-c1-stage1#readme",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.1",
+    "express": "^5.2.1"
+  }
+}
